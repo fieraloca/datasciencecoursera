@@ -8,6 +8,7 @@
 
 source("corr.R")
 source("complete.R")
+browser()
 cr <- corr("specdata", 150)
 head(cr)
 summary(cr)
